@@ -7,7 +7,7 @@ namespace Git_workshop_7
     class Triangle
     {
         double hypotenuse, width, height;
-        Triangle(int w, int s, int h)
+        public Triangle(int w, int s, int h)
         {
             hypotenuse = s;
             width = w;

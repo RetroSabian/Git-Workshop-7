@@ -6,9 +6,13 @@ namespace Git_workshop_7
 {
     class square
     {
-        double side = Convert.ToDouble(Console.ReadLine());
+        double side;
+        public square(double s)
+        {
+            side = s;
+        }
 
-        double square()
+        public double Area()
         {
             return side * side;
         }

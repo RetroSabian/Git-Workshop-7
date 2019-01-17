@@ -6,14 +6,16 @@ namespace Git_workshop_7
 {
     class rectangle
     {
-
-        public void Area()
+        double length, breadth;
+        public rectangle(double l, double b)
         {
-            double length = Console.Read();
-            double with = Console.Read();
+            length = l;
+            breadth = b;
+        }
 
-            double RecArea = length * width;
-
+        public double Area()
+        {
+           return length * breadth;
         }
 
     }
