@@ -16,6 +16,14 @@ namespace Git_workshop_7
             Console.WriteLine("Circle Area: " + c.Area());
             Console.WriteLine("Hexagon Area: " + h.Area());
             Console.WriteLine("Rectangle Area: " + r.Area());
+            Console.WriteLine("Press ESC to stop");
+            do
+            {
+                while (!Console.KeyAvailable)
+                {
+                    // Do something
+                }
+            } while (Console.ReadKey(true).Key != ConsoleKey.Escape);
         }
     }
 }
